@@ -167,6 +167,24 @@
   }
 }
 
+/* Signup link */
+p {
+  font-size: 16px;
+  color: #888;
+  margin-top: 20px;
+}
+
+p a {
+  color: #088178;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+p a:hover {
+  color: #065a4f;
+}
+
 
 html {
   scroll-behavior: smooth;
@@ -294,7 +312,7 @@ body {
 
 /* home page */
 .hero {
-  background-image: url("img/hero1.png");
+  background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixXYzHcWOkEvp4qSaX9hYiczA1Xt3i8vS7gZdy3pAJHY3W3TtHyVAq89AiCnRQCzHHIsTmA0nvVkEi60pmGJRWKI_P_WUSk6fR5_L1DbKpLNlSBGbFCD8Udnc7EbUP8wpti7df9yGJbidSMBi_OMFc7K0ygPTQE6aK4vWCFnK6sweWxLWF9d9jgdUTq95Z/s1903/hero1.png");
   height: 90vh;
   width: 100%;
   background-size: cover;
@@ -315,7 +333,7 @@ body {
 }
 
 .hero button {
-  background-image: url("img/button.png");
+  background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhDuYXkO-fSUTJkgwGuIFAUvTa_z4SuyBOCpSsBfxYXtrE3HXvAEfDqbfYgHyS1pHAQPFuDE_ArMjwIATtJIv3_xrjfYmijnf2T34EsFE6TKITJowa3GuoCbObh8tnlVPD6OMiDG7q_g8Bg7MEgn8MABbUrrFU3UFUP7QcfB-A78m5QJc3ILinENRiWQaGx/s227/button.png");
   background-color: transparent;
   color: var(--text-color);
   border: 0;
@@ -641,4 +659,68 @@ body {
   white-space: nowrap;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
+}
+
+/* footer */
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+footer .col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+footer .logo {
+  margin-bottom: 30px;
+}
+
+footer h4 {
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+
+footer p {
+  font-size: 14px;
+  margin: 0 0 8px 0;
+}
+
+footer a {
+  font-size: 13px;
+  text-decoration: none;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+footer .follow {
+  margin-top: 20px;
+}
+
+footer .follow i{
+  color: #465b52;
+  padding-right: 4px;
+  cursor: pointer;
+}
+
+footer .install .row img {
+  border: 1px solid #088178;
+  border-radius: 6px;
+}
+
+footer .install img {
+  margin: 10px 0 15px 0;
+}
+
+footer .follow i:hover,
+footer a:hover {
+  color: #088178;
+}
+
+footer .copyright {
+  width: 100%;
+  text-align: center;
 }
